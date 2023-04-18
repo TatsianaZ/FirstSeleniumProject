@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.test.ContactUsPageTest" class="method navigator-link" hash-for-method="testContactUsBrowserTitle">testContactUsBrowserTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.test.ContactUsFormTest" class="method navigator-link" hash-for-method="testContactUsFormSubmitting">testContactUsFormSubmitting</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.test.OnlinerTest" class="method navigator-link" hash-for-method="testOnlinerBrowserTitle">testOnlinerBrowserTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.test.onliner.ProductPagesTest" class="method navigator-link" hash-for-method="testSetGouLocation">testSetGouLocation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -132,44 +122,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.it_academy.test.ContactUsPageTest</span>
+              <span class="class-name">com.it_academy.test.onliner.ProductPagesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testContactUsBrowserTitle">
-                  </a> <!-- testContactUsBrowserTitle -->
-                  <span class="method-name">testContactUsBrowserTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.it_academy.test.ContactUsFormTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testContactUsFormSubmitting">
-                  </a> <!-- testContactUsFormSubmitting -->
-                  <span class="method-name">testContactUsFormSubmitting</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.it_academy.test.OnlinerTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testOnlinerBrowserTitle">
-                  </a> <!-- testOnlinerBrowserTitle -->
-                  <span class="method-name">testOnlinerBrowserTitle</span>
+                  <a name="testSetGouLocation">
+                  </a> <!-- testSetGouLocation -->
+                  <span class="method-name">testSetGouLocation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,11 +144,13 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;org.apache.maven.surefire.testng.utils.MethodSelector&quot; priority=&quot;10000&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.it_academy.test.BaseTest&quot;/&gt;
-      &lt;class name=&quot;com.it_academy.test.ContactUsFormTest&quot;/&gt;
-      &lt;class name=&quot;com.it_academy.test.ContactUsPageTest&quot;/&gt;
-      &lt;class name=&quot;com.it_academy.test.OnlinerTest&quot;/&gt;
+      &lt;class name=&quot;com.it_academy.test.onliner.ProductPagesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -202,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (4 classes)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,24 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testContactUsFormSubmitting')
-data.setCell(0, 2, 'com.it_academy.test.ContactUsFormTest')
-data.setCell(0, 3, 1021);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testContactUsBrowserTitle')
-data.setCell(1, 2, 'com.it_academy.test.ContactUsPageTest')
-data.setCell(1, 3, 194);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testOnlinerBrowserTitle')
-data.setCell(2, 2, 'com.it_academy.test.OnlinerTest')
-data.setCell(2, 3, 0);
+data.setCell(0, 1, 'testSetGouLocation')
+data.setCell(0, 2, 'com.it_academy.test.onliner.ProductPagesTest')
+data.setCell(0, 3, 23431);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -260,27 +214,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.it_academy.test.ContactUsPageTest</span>
+              <span class="ignored-class-name">com.it_academy.test.onliner.ProductPagesTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">closeBrowser</span>
+                <span class="ignored-method-name">testIsHeadphonesProductTitleExists</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.it_academy.test.OnlinerTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">closeBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.it_academy.test.ContactUsFormTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">closeBrowser</span>
+                <span class="ignored-method-name">testTakeScreenshotOfSpecificElement</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -292,43 +234,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.test.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.it_academy.test.onliner.ProductPagesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">navigateToHomePage</span>
+                <span class="method-name">navigationToHomePage</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testContactUsFormSubmitting</span>
-                <span class="method-start">795 ms</span>
+                <span class="method-name">testSetGouLocation</span>
+                <span class="method-start">8517 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.test.ContactUsPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">1823 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testContactUsBrowserTitle</span>
-                <span class="method-start">2031 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.test.OnlinerTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">navigateToOnlinerPage</span>
-                <span class="method-start">2226 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testOnlinerBrowserTitle</span>
-                <span class="method-start">4012 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.test.BaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4059 ms</span>
+                <span class="method-start">32044 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,7 +1,8 @@
-package com.it_academy.test;
+package com.it_academy.test.webdriveruniversity;
 
 import com.it_academy.onliner.pageobject.webdriveruniversity.ContactUsPage;
 import com.it_academy.onliner.pageobject.webdriveruniversity.HomePage;
+import com.it_academy.test.BaseTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 

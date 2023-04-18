@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T20:55:38 MSK" name="Surefire suite" finished-at="2023-04-13T20:55:42 MSK" duration-ms="4023">
+  <suite started-at="2023-04-17T21:04:48 MSK" name="Surefire suite" finished-at="2023-04-17T21:05:20 MSK" duration-ms="31999">
     <groups>
     </groups>
-    <test started-at="2023-04-13T20:55:38 MSK" name="Surefire test" finished-at="2023-04-13T20:55:42 MSK" duration-ms="4023">
-      <class name="com.it_academy.test.ContactUsPageTest">
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.it_academy.test.ContactUsPageTest@6aa648b9]" started-at="2023-04-13T20:55:40 MSK" name="navigateToHomePage" finished-at="2023-04-13T20:55:40 MSK" duration-ms="207" status="PASS">
+    <test started-at="2023-04-17T21:04:48 MSK" name="Surefire test" finished-at="2023-04-17T21:05:20 MSK" duration-ms="31999">
+      <class name="com.it_academy.test.onliner.ProductPagesTest">
+        <test-method is-config="true" signature="navigationToHomePage()[pri:0, instance:com.it_academy.test.onliner.ProductPagesTest@3f3c7bdb]" started-at="2023-04-17T21:04:48 MSK" name="navigationToHomePage" finished-at="2023-04-17T21:04:57 MSK" duration-ms="8509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToHomePage -->
-        <test-method signature="testContactUsBrowserTitle()[pri:0, instance:com.it_academy.test.ContactUsPageTest@6aa648b9]" started-at="2023-04-13T20:55:40 MSK" name="testContactUsBrowserTitle" finished-at="2023-04-13T20:55:40 MSK" duration-ms="194" status="PASS">
+        </test-method> <!-- navigationToHomePage -->
+        <test-method signature="testSetGouLocation()[pri:0, instance:com.it_academy.test.onliner.ProductPagesTest@3f3c7bdb]" started-at="2023-04-17T21:04:57 MSK" name="testSetGouLocation" finished-at="2023-04-17T21:05:20 MSK" duration-ms="23431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testContactUsBrowserTitle -->
-      </class> <!-- com.it_academy.test.ContactUsPageTest -->
-      <class name="com.it_academy.test.OnlinerTest">
-        <test-method is-config="true" signature="navigateToOnlinerPage()[pri:0, instance:com.it_academy.test.OnlinerTest@742d4e15]" started-at="2023-04-13T20:55:40 MSK" name="navigateToOnlinerPage" finished-at="2023-04-13T20:55:42 MSK" duration-ms="1786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToOnlinerPage -->
-        <test-method signature="testOnlinerBrowserTitle()[pri:0, instance:com.it_academy.test.OnlinerTest@742d4e15]" started-at="2023-04-13T20:55:42 MSK" name="testOnlinerBrowserTitle" finished-at="2023-04-13T20:55:42 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOnlinerBrowserTitle -->
-      </class> <!-- com.it_academy.test.OnlinerTest -->
-      <class name="com.it_academy.test.ContactUsFormTest">
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.it_academy.test.ContactUsFormTest@2c0f7678]" started-at="2023-04-13T20:55:38 MSK" name="navigateToHomePage" finished-at="2023-04-13T20:55:39 MSK" duration-ms="777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToHomePage -->
-        <test-method signature="testContactUsFormSubmitting()[pri:0, instance:com.it_academy.test.ContactUsFormTest@2c0f7678]" started-at="2023-04-13T20:55:39 MSK" name="testContactUsFormSubmitting" finished-at="2023-04-13T20:55:40 MSK" duration-ms="1021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testContactUsFormSubmitting -->
-      </class> <!-- com.it_academy.test.ContactUsFormTest -->
-      <class name="com.it_academy.test.BaseTest">
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.it_academy.test.BaseTest@29ba4338]" started-at="2023-04-13T20:55:42 MSK" name="closeBrowser" finished-at="2023-04-13T20:55:42 MSK" duration-ms="106" status="PASS">
+        </test-method> <!-- testSetGouLocation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.it_academy.test.onliner.ProductPagesTest@3f3c7bdb]" started-at="2023-04-17T21:05:20 MSK" name="closeBrowser" finished-at="2023-04-17T21:05:21 MSK" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.it_academy.test.BaseTest -->
+      </class> <!-- com.it_academy.test.onliner.ProductPagesTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

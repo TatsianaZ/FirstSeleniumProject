@@ -13,10 +13,11 @@
         <!--Versions-->
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-      <!--  <selenium.version>3.141.59</selenium.version>-->
+        <!--  <selenium.version>3.141.59</selenium.version>-->
         <log4j.version>2.17.1</log4j.version>
+        <defaultDriverType>chrome</defaultDriverType>
         <!--Drivers-->
-     <!--   <chrome.driver.path>${project.basedir}/src/test/resources/chromedriver.exe</chrome.driver.path>-->
+        <!--   <chrome.driver.path>${project.basedir}/src/test/resources/chromedriver.exe</chrome.driver.path>-->
     </properties>
 
     <build>
@@ -25,11 +26,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M1</version>
-  <!--              <configuration>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/suite.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>${chrome.driver.path}</webdriver.chrome.driver>
+                        <driverType>${defaultDriverType}</driverType>
                     </systemPropertyVariables>
-                </configuration>-->
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -55,6 +59,18 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
+            <version>4.8.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v111</artifactId>
             <version>4.8.3</version>
         </dependency>
 

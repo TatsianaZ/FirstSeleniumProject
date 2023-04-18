@@ -1,5 +1,11 @@
-C:\Old_C\JavaProjects\FirstSeleniumProject\src\main\java\com\it_academy\onliner\pageobject\onliner\HomePage.java
-C:\Old_C\JavaProjects\FirstSeleniumProject\src\main\java\com\it_academy\onliner\framework\DriverManager.java
-C:\Old_C\JavaProjects\FirstSeleniumProject\src\main\java\com\it_academy\onliner\pageobject\BasePage.java
-C:\Old_C\JavaProjects\FirstSeleniumProject\src\main\java\com\it_academy\onliner\pageobject\webdriveruniversity\HomePage.java
-C:\Old_C\JavaProjects\FirstSeleniumProject\src\main\java\com\it_academy\onliner\pageobject\webdriveruniversity\ContactUsPage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\onliner\CatalogPage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\webdriveruniversity\HomePage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\framework\WebDriverCreator.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\framework\Driver.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\framework\DriverManager.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\onliner\Header.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\BasePage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\onliner\ProductPage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\pageobject\webdriveruniversity\ContactUsPage.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\framework\ChromeDriverCreator.java
+C:\Users\Tatsiana_Zhdanko\JavaProjects\SeleniumProject\src\main\java\com\it_academy\onliner\framework\EdgeDriverCreator.java

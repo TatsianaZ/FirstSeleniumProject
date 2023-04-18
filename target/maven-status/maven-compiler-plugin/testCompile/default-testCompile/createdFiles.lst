@@ -1,4 +1,6 @@
+com\it_academy\test\webdriveruniversity\ContactUsFormTest.class
+com\it_academy\listener\TestNgListener.class
+com\it_academy\utils\ScreenshotUtils.class
+com\it_academy\test\webdriveruniversity\ContactUsPageTest.class
 com\it_academy\test\BaseTest.class
-com\it_academy\test\ContactUsFormTest.class
-com\it_academy\test\OnlinerTest.class
-com\it_academy\test\ContactUsPageTest.class
+com\it_academy\test\onliner\ProductPagesTest.class

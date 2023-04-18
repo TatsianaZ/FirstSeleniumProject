@@ -1,6 +1,12 @@
 com\it_academy\onliner\framework\DriverManager.class
+com\it_academy\onliner\framework\EdgeDriverCreator.class
 com\it_academy\onliner\pageobject\BasePage.class
+com\it_academy\onliner\framework\WebDriverCreator.class
+com\it_academy\onliner\pageobject\webdriveruniversity\ContactUsPage$ContactUsFormWithValues.class
+com\it_academy\onliner\framework\Driver.class
+com\it_academy\onliner\pageobject\onliner\CatalogPage.class
 com\it_academy\onliner\pageobject\webdriveruniversity\ContactUsPage.class
 com\it_academy\onliner\pageobject\webdriveruniversity\HomePage.class
-com\it_academy\onliner\pageobject\onliner\HomePage.class
-com\it_academy\onliner\pageobject\webdriveruniversity\ContactUsPage$ContactUsFormWithValues.class
+com\it_academy\onliner\framework\ChromeDriverCreator.class
+com\it_academy\onliner\pageobject\onliner\Header.class
+com\it_academy\onliner\pageobject\onliner\ProductPage.class

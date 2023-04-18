@@ -4,6 +4,7 @@ import com.it_academy.onliner.framework.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -41,6 +42,16 @@ public abstract class BasePage {
     public void fillInFieldWithValue(WebElement field, String value) {
         field.clear();
         field.sendKeys(value);
+    }
+
+    public boolean isElementDisplayed(By locator) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, ofSeconds(10));
+            WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            return element.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public void performValidationInLastOpenedWindowTabAndCloseItAfter(Supplier action) {

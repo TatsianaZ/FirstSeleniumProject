@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Testing Suite">
+    <test name="Onliner tests">
+        <classes>
+            <class name="com.it_academy.test.onliner.OnlinerNavigationTest"/>
+        </classes>
+    </test>
+    <test name="WebDriverUniversity tests">
+        <classes>
+            <class name="com.it_academy.test.webdriveruniversity.ContactUsFormTest"/>
+            <class name="com.it_academy.test.webdriveruniversity.ContactUsPageTest"/>
+        </classes>
+    </test>
+</suite>
